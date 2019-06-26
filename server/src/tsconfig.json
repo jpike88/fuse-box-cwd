@@ -1,0 +1,40 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+		"lib": [
+			"es2017"
+		],
+		"target": "esnext",
+		"module": "esnext",
+		"sourceMap": true,
+		"declaration": true,
+		"declarationDir": "../decl",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": true,
+		"resolveJsonModule": true,
+		"noUnusedParameters": true,
+		"noImplicitThis": true,
+		"skipLibCheck": true,
+		"outDir": "../dist/",
+		"typeRoots": [
+			"../node_modules/@types"
+		],
+		"baseUrl": "./",
+		"paths": {
+			"@shared/*": [
+				"../../shared/*"
+			],
+			"@server/*": [
+				"./components/*"
+			],
+			"@brand/config.json": [
+				"../config.json"
+			]
+		}
+	},
+	"exclude": [
+		"../node_modules/@types/",
+		"../node_modules/aws-sdk/"
+	]
+}

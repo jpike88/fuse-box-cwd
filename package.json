@@ -1,0 +1,23 @@
+{
+  "name": "fuse-box-cwd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpike88/fuse-box-cwd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpike88/fuse-box-cwd/issues"
+  },
+  "homepage": "https://github.com/jpike88/fuse-box-cwd#readme",
+  "dependencies": {
+    "fuse-box": "^4.0.0-alpha.48",
+    "typescript": "^3.5.2"
+  }
+}
